@@ -73,7 +73,7 @@ export const DB = [
   },
   {
     game: "Chivalry: Medieval Warfare",
-    played: "",
+    played: "МБ, АР, АЮ",
     ended: "-",
     type: "Мультиплеер",
   },
@@ -97,13 +97,13 @@ export const DB = [
   },
   {
     game: "Borderlands 2",
-    played: "МБ, АР, АЮ",
-    ended: "",
+    played: "МБ, АП, АР, АЮ",
+    ended: "МБ, АП, АР, АЮ",
     type: "Кооператив",
   },
   {
     game: "Dying Light",
-    played: "МБ, АР, АЮ",
+    played: "МБ, АР",
     ended: "МБ",
     type: "Кооператив",
   },
@@ -116,7 +116,7 @@ export const DB = [
   {
     game: "Terraria",
     played: "МБ, МГ, АР, АЮ",
-    ended: "АР",
+    ended: "",
     type: "Кооператив",
   },
   {
@@ -133,7 +133,7 @@ export const DB = [
   },
   {
     game: "The Darkness 2",
-    played: "МБ, АЮ",
+    played: "МБ, АР, АЮ",
     ended: "",
     type: "Кооператив",
   },
@@ -176,7 +176,7 @@ export const DB = [
   {
     game: "Strange Brigade",
     played: "МБ, МГ, АР, АЮ",
-    ended: "МБ, МГ, АР, АЮ ",
+    ended: "МБ, МГ, АР, АЮ",
     type: "Кооператив",
   },
   {
@@ -287,10 +287,16 @@ export const DB = [
     ended: "-",
     type: "Кооператив, Мультиплеер",
   },
+  {
+    game: "Raft",
+    played: "АП, АР",
+    ended: "АП",
+    type: "Кооператив",
+  },
   // {
   //   game: "",
   //   played: "",
   //   ended: "",
   //   type: ""
-  // }
+  // },
 ];
