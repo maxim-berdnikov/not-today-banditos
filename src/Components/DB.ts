@@ -1,6 +1,6 @@
 export const DB = [
   {
-    game: "Left 4 Dead",
+    game: "Left 4 Dead 2",
     played: "МБ, МГ, АП, АР, АЮ",
     ended: "МБ, МГ, АП, АР, АЮ",
     type: "Кооператив",
