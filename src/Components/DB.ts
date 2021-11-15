@@ -26,13 +26,13 @@ export const DB = [
   {
     game: "We Were Here",
     played: "МБ, АЮ",
-    ended: "МБ, АЮ  ",
+    ended: "МБ, АЮ",
     type: "Кооператив",
   },
   {
     game: "We Were Here Too",
     played: "МБ, АЮ",
-    ended: "МБ, АЮ  ",
+    ended: "МБ, АЮ",
     type: "Кооператив",
   },
   {
