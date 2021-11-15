@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/not-today-banditos/static/css/main.2e30cbb0.chunk.css",
+    "main.js": "/not-today-banditos/static/js/main.479380df.chunk.js",
+    "main.js.map": "/not-today-banditos/static/js/main.479380df.chunk.js.map",
+    "runtime-main.js": "/not-today-banditos/static/js/runtime-main.4f67cb96.js",
+    "runtime-main.js.map": "/not-today-banditos/static/js/runtime-main.4f67cb96.js.map",
+    "static/js/2.712a91bf.chunk.js": "/not-today-banditos/static/js/2.712a91bf.chunk.js",
+    "static/js/2.712a91bf.chunk.js.map": "/not-today-banditos/static/js/2.712a91bf.chunk.js.map",
+    "static/js/3.46674657.chunk.js": "/not-today-banditos/static/js/3.46674657.chunk.js",
+    "static/js/3.46674657.chunk.js.map": "/not-today-banditos/static/js/3.46674657.chunk.js.map",
+    "index.html": "/not-today-banditos/index.html",
+    "static/css/main.2e30cbb0.chunk.css.map": "/not-today-banditos/static/css/main.2e30cbb0.chunk.css.map",
+    "static/js/2.712a91bf.chunk.js.LICENSE.txt": "/not-today-banditos/static/js/2.712a91bf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f67cb96.js",
+    "static/js/2.712a91bf.chunk.js",
+    "static/css/main.2e30cbb0.chunk.css",
+    "static/js/main.479380df.chunk.js"
+  ]
+}
