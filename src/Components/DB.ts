@@ -152,7 +152,7 @@ export const DB = [
   {
     game: "Warhammer: Vermintide 2",
     played: "МБ, АР, АЮ",
-    ended: "МБ, АР, АЮ     ",
+    ended: "МБ, АР, АЮ",
     type: "Кооператив",
   },
   {
