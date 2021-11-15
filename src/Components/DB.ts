@@ -170,7 +170,7 @@ export const DB = [
   {
     game: "Broforce",
     played: "МБ, АЮ",
-    ended: "",
+    ended: "МБ",
     type: "Кооператив",
   },
   {
