@@ -1,5 +1,5 @@
 import React from "react";
 
 export function Header() {
-    return <p>Header</p>
+  return <p className="header">Not Today Banditos Stats</p>;
 }
