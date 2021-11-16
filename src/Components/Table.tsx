@@ -36,9 +36,7 @@ export function Table() {
           {tableDB.filter(item => item === "").map((item) => {
             return (
               <tr key={item.game}>
-                <td align="left">{item.game}</td>
-                <td align="left">{item.played}</td>
-                <td align="left">{item.ended}</td>
+                <td align="left" colSpan={3}>{item.game}</td>
               </tr>
             );
           })}
