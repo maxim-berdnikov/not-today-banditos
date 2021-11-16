@@ -16,7 +16,7 @@ export function Table() {
           </tr>
         </thead>
         <tbody>
-          {tableDB.filter(item => item !== "").map((item) => {
+          {tableDB.filter(item => item.played !== "").map((item) => {
             return (
               <tr key={item.game}>
                 <td
