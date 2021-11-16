@@ -31,7 +31,7 @@ export function Table() {
             );
           })}
           <tr>
-            <td align="center" colSpan="3">Планы</td>
+            <td align="center" colSpan={3}>Планы</td>
           </tr>
         </tbody>
       </table>
