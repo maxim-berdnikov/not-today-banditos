@@ -30,6 +30,9 @@ export function Table() {
               </tr>
             );
           })}
+          <tr>
+            <td align="center">Планы</td>
+          </tr>
         </tbody>
       </table>
     </>
