@@ -16,7 +16,7 @@ export function Table() {
           </tr>
         </thead>
         <tbody>
-          {tableDB.map((item) => {
+          {tableDB.filter(item => item !== "").map((item) => {
             return (
               <tr key={item.game}>
                 <td
@@ -33,6 +33,15 @@ export function Table() {
           <tr>
             <td align="center" colSpan={3}>Планы</td>
           </tr>
+          {tableDB.filter(item => item === "").map((item) => {
+            return (
+              <tr key={item.game}>
+                <td align="left">{item.game}</td>
+                <td align="left">{item.played}</td>
+                <td align="left">{item.ended}</td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </>
