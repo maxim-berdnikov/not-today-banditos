@@ -1,0 +1,29 @@
+
+   
+name: Deploy client
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Client
+        run: CI=false npm run build
+      
+      - name: Deploy Client
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
