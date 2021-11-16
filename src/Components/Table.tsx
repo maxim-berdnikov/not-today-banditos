@@ -23,7 +23,7 @@ export function Table() {
                   align="left"
                   className={item.ended === item.played ? "win" : ""}
                 >
-                  {item.game}
+                  <a className="link" href={item.link}>{item.game}</a>
                 </td>
                 <td align="left">{item.played}</td>
                 <td align="left">{item.ended}</td>
@@ -36,7 +36,7 @@ export function Table() {
           {tableDB.filter(item => item.played === "").map((item) => {
             return (
               <tr key={item.game}>
-                <td align="left" colSpan={3}>{item.game}</td>
+                <td align="left" colSpan={3}><a className="link" href={item.link}>{item.game}</a></td>
               </tr>
             );
           })}
