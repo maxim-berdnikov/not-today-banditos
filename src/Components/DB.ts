@@ -293,6 +293,12 @@ export const DB = [
     ended: "АП",
     type: "Кооператив",
   },
+  {
+    game: "Borderlands: The Pre-Sequel",
+    played: "",
+    ended: "",
+    type: "Кооператив"
+  },
   // {
   //   game: "",
   //   played: "",
