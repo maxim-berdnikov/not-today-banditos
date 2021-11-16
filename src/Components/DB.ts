@@ -229,7 +229,25 @@ export const DB = [
   },
   {
     game: "Neverwinter",
-    played: "",
+    played: "МБ, МГ, АЮ",
+    ended: "-",
+    type: "Мультиплеер",
+  },
+  {
+    game: "World Of Warkraft",
+    played: "МБ, МГ",
+    ended: "-",
+    type: "Мультиплеер",
+  },
+  {
+    game: "Point Blank",
+    played: "МБ, МГ, AР, АЮ",
+    ended: "-",
+    type: "Мультиплеер",
+  },
+  {
+    game: "Warface",
+    played: "МБ, МГ",
     ended: "-",
     type: "Мультиплеер",
   },
