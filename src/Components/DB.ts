@@ -370,6 +370,13 @@ export const DB = [
     ended: "",
     type: "Кооператив"
   },
+  {
+    game: "Gang Beasts",
+    link: "https://store.steampowered.com/app/261640/Borderlands_The_PreSequel/",
+    played: "",
+    ended: "",
+    type: "Мультиплеер"
+  },
   // {
   //   game: "",
   //   link: "",
