@@ -310,7 +310,7 @@ export const DB = [
   {
     game: "Rocket League",
     link: "https://store.steampowered.com/app/252950/Rocket_League/",
-    played: "",
+    played: "МБ, АП, АЮ",
     ended: "-",
     type: "Мультиплеер",
   },
