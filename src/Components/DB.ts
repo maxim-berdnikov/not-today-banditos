@@ -377,11 +377,11 @@ export const DB = [
     ended: "",
     type: "Мультиплеер"
   },
-  // {
-  //   game: "",
-  //   link: "",
-  //   played: "",
-  //   ended: "",
-  //   type: ""
-  // },
+  {
+    game: "Kingdom Two Crowns",
+    link: "https://store.steampowered.com/app/261640/Borderlands_The_PreSequel/",
+    played: "",
+    ended: "",
+    type: "Мультиплеер"
+  }
 ];
