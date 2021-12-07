@@ -1,5 +1,5 @@
 {
-  "name": "not-today-banditos-github",
+  "name": "not-today-banditos",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://maxim-berdnikov.github.io/not-today-banditos/",
@@ -26,17 +26,10 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
