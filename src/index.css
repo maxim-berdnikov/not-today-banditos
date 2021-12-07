@@ -46,6 +46,34 @@ td {
 }
 
 .win {
+  position: relative;
+}
+
+.win .link:after {
+  content: "";
+  position: absolute;
+  top: -7px;
+  right: -35px;
+  width: 30px;
+  height: 30px;
+  background: url("https://cdn-icons-png.flaticon.com/512/1378/1378577.png")
+    center / cover no-repeat;
+
+  /* https://www.flaticon.com/free-icon/ribbon_1378577 */
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.link {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.game_title:hover {
   background: #ffb347; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -57,18 +85,6 @@ td {
     #ffcc33,
     #ffb347
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 
-.header {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.link {
-  color: #000;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
+  cursor: pointer;
 }

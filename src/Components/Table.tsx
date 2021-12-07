@@ -29,7 +29,11 @@ export function Table() {
                 <tr key={item.game}>
                   <td
                     align="left"
-                    className={item.ended === item.played ? "win" : ""}
+                    className={
+                      item.ended === item.played
+                        ? "win game_title"
+                        : "game_title"
+                    }
                   >
                     <Link link={item.link} title={item.game} />
                   </td>
@@ -48,7 +52,10 @@ export function Table() {
             .map((item) => {
               return (
                 <tr key={item.game}>
-                  <td align="left" colSpan={3}> <Link link={item.link} title={item.game} /></td>
+                  <td align="left" colSpan={3} className="game_title">
+                    {" "}
+                    <Link link={item.link} title={item.game} />
+                  </td>
                 </tr>
               );
             })}

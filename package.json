@@ -1,5 +1,5 @@
 {
-  "name": "not-today-banditos",
+  "name": "not-today-banditos-github",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://maxim-berdnikov.github.io/not-today-banditos/",
@@ -45,5 +45,7 @@
   },
   "devDependencies": {
     "gh-pages": "^3.2.3"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
