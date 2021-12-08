@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/not-today-banditos/static/css/main.fd1414ad.chunk.css",
-    "main.js": "/not-today-banditos/static/js/main.c00b61c8.chunk.js",
-    "main.js.map": "/not-today-banditos/static/js/main.c00b61c8.chunk.js.map",
+    "main.css": "/not-today-banditos/static/css/main.9ca89001.chunk.css",
+    "main.js": "/not-today-banditos/static/js/main.fe173040.chunk.js",
+    "main.js.map": "/not-today-banditos/static/js/main.fe173040.chunk.js.map",
     "runtime-main.js": "/not-today-banditos/static/js/runtime-main.e8831a1e.js",
     "runtime-main.js.map": "/not-today-banditos/static/js/runtime-main.e8831a1e.js.map",
     "static/js/2.0b9fe45b.chunk.js": "/not-today-banditos/static/js/2.0b9fe45b.chunk.js",
     "static/js/2.0b9fe45b.chunk.js.map": "/not-today-banditos/static/js/2.0b9fe45b.chunk.js.map",
     "index.html": "/not-today-banditos/index.html",
-    "static/css/main.fd1414ad.chunk.css.map": "/not-today-banditos/static/css/main.fd1414ad.chunk.css.map",
+    "static/css/main.9ca89001.chunk.css.map": "/not-today-banditos/static/css/main.9ca89001.chunk.css.map",
     "static/js/2.0b9fe45b.chunk.js.LICENSE.txt": "/not-today-banditos/static/js/2.0b9fe45b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8831a1e.js",
     "static/js/2.0b9fe45b.chunk.js",
-    "static/css/main.fd1414ad.chunk.css",
-    "static/js/main.c00b61c8.chunk.js"
+    "static/css/main.9ca89001.chunk.css",
+    "static/js/main.fe173040.chunk.js"
   ]
 }
