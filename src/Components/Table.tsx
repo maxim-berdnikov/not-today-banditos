@@ -1,24 +1,22 @@
 import { DB } from "./DB";
-import { Header } from "./Header";
 
 export function Table() {
   const tableDB = DB.sort((a, b) => a.game.localeCompare(b.game));
 
   const Link = ({ link, title }: { link: string; title: string }) => (
     <a className="link" href={link} target="_blank" rel="noreferrer">
-      {title}
+      <span className="link_text">{title}</span>
     </a>
   );
 
   return (
     <>
-      <Header />
       <table className="table">
         <thead>
           <tr>
-            <td>Игра</td>
-            <td>Играли</td>
-            <td>Прошли</td>
+            <td className="title">Игра</td>
+            <td className="title">Играли</td>
+            <td className="title">Прошли</td>
           </tr>
         </thead>
         <tbody>
