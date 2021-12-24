@@ -58,8 +58,8 @@ td {
   text-decoration: none;
 }
 
-.link_text {
-  position: relative;
+.link_alert {
+  color: #f4511e;
 }
 
 .game_title {
@@ -85,11 +85,12 @@ td {
   position: relative;
 }
 
-.win .link_text:after {
+.win:after {
   content: "";
   position: absolute;
-  top: -7px;
-  right: -35px;
+  top: 50%;
+  right: -10px;
+  transform: translate(-50%, -50%);
   width: 30px;
   height: 30px;
   background: url("https://cdn-icons-png.flaticon.com/512/1378/1378577.png")
