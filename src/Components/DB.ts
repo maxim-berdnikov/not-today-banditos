@@ -381,28 +381,28 @@ export const DB = [
   },
   {
     game: "Warframe",
-    link: "",
+    link: "https://store.steampowered.com/app/230410/Warframe/",
     played: "МБ, МГ, АЮ, АР",
     ended: "-",
     type: "Кооператив"
   },
   {
     game: "Gang Beasts",
-    link: "",
+    link: "https://store.steampowered.com/app/285900/Gang_Beasts/",
     played: "",
     ended: "",
     type: "Мультиплеер"
   },
   {
     game: "Kingdom Two Crowns",
-    link: "",
+    link: "https://store.steampowered.com/app/701160/Kingdom_Two_Crowns/",
     played: "",
     ended: "",
     type: "Кооператив"
   },
   {
     game: "Sea of Thieves",
-    link: "",
+    link: "https://store.steampowered.com/app/1172620/Sea_of_Thieves/",
     played: "",
     ended: "",
     type: "Мультиплеер"
@@ -412,10 +412,10 @@ export const DB = [
 export const CHECK = [
   {
     game: "Witch it",
-    link: ""
+    link: "https://store.steampowered.com/app/559650/Witch_It/"
   },
   {
     game: "Embr",
-    link: ""
+    link: "https://store.steampowered.com/app/1062830/Embr/"
   }
 ];
