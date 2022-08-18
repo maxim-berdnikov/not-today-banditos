@@ -25,7 +25,7 @@ export const DB = [
     game: "Human: Fall Flat",
     link: "https://store.steampowered.com/app/477160/Human_Fall_Flat/",
     played: "Все",
-    ended: "МБ, МГ, АП, АЮ ",
+    ended: "МБ, МГ, АП, АЮ",
     type: "Кооператив"
   },
   {
@@ -154,7 +154,7 @@ export const DB = [
     game: "The Forest",
     link: "https://store.steampowered.com/app/242760/The_Forest/",
     played: "МБ, МГ, АР, АЮ",
-    ended: "МБ, МГ, АР, АЮ ",
+    ended: "МБ, МГ, АР, АЮ",
     type: "Кооператив"
   },
   {
@@ -248,7 +248,7 @@ export const DB = [
     game: "Gauntlet",
     link: "https://store.steampowered.com/app/258970/Gauntlet_Slayer_Edition/",
     played: "МБ, АЮ",
-    ended: "МБ, АЮ  ",
+    ended: "МБ, АЮ",
     type: "Кооператив"
   },
   {
